@@ -1,0 +1,262 @@
+html, body{
+	margin:0;
+	width: 100vw;
+	height: 100vh;
+	overflow-x: hidden;
+}
+.parent{
+	Width:100vw;
+	height:100vh;
+	background:black;
+}
+
+
+
+ul {
+	height:5.1%;
+	width:100%;
+	list-style-type: none;
+        margin: 0;
+    	padding-top: 25;
+		padding-bottom: 26;
+		padding-right: 0;
+		padding-left:17;
+    	overflow: hidden;
+    	background-color: black;
+		font-family: Monaco;
+		margin:0px;
+		letter-spacing: 0.2em;
+		font-size: 21px;
+		font-weight:lighter;
+	
+}
+
+li {
+    float: left;
+}
+
+li a {
+    display: block;
+    color: white;
+    text-align: center;
+    padding: 13px 33px 13px 33px;
+    text-decoration: none;
+}
+
+li a:hover {
+    background-color: #707070;
+	opacity: 0.1;
+}
+
+.button {
+    background-color: black;
+    border: none;
+    color: white;
+    padding: 5px 5px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 10px;
+    margin: 4px 2px;
+    cursor: pointer;
+	height: 6%;
+	font-family: Monaco;
+	letter-spacing: 0.2em;
+}
+
+
+.box1{
+	background-image:url("68.jpg"); 
+	background-size:cover;
+}
+
+.box2{
+	background-image:url("metro2.jpg");
+			background-size:cover;
+}
+
+.box3{
+	background-image:url("11.png");
+			background-size:cover;
+}
+.box10{
+	background-image:url("70.jpg");
+	background-size:cover;
+}
+
+
+
+.box4{
+	background-image:url("67.jpg");
+		background-size:cover;
+}
+.box5
+{
+	background-image:url("22.png");
+			background-size:cover;
+}
+.box6{
+	background-image:url("69.jpg");
+			background-size:cover;
+}
+.box11{
+	background-image:url("old.png");
+			background-size:cover;
+}
+
+.box7 {
+    background-image:url("metro7.jpg");
+	background-size:cover;
+	}
+.box8 {
+	background-image:url("33.png");
+		background-size:cover;
+}
+.box9 {
+    background-image:url("71.jpg");
+		background-size:cover;
+}
+.box12{
+	background-image:url("metro12.jpg");
+	background-size:cover;
+}
+
+.content1 div, 
+.content2 div,
+.content3 div {
+    width: 100%;
+	display: flex;
+	flex-wrap: wrap;
+}
+
+
+
+.content1 {
+    display: flex;
+	height:31.7%;
+}
+
+.content2 {
+	display:flex;
+	height:31.7%;
+}
+
+.content3 {
+	display:flex;
+	height:31.7%;
+	
+}
+
+.opacity{
+	opacity: 0.3;
+}
+.fun{
+	
+}
+
+@media screen and (max-width: 850px){
+
+.content1 {
+	display: flex;
+	flex-wrap: wrap;
+	Width:100vw;
+	height:88vh;
+}
+
+.content2 {
+	display: flex;
+	flex-wrap: wrap;
+	Width:100vw;
+	height:88vh;
+}
+
+.content3 {
+	display: flex;
+	flex-wrap: wrap;
+	Width:100vw;
+	height:88vh;
+}
+
+
+.box1{
+	background-image:url("68.jpg"); 
+	background-size:cover;
+	height: 26%;
+	width: 100%;
+}
+
+.box2{
+	background-image:url("metro2.jpg");
+			background-size:cover;
+			height: 26%;
+			width: 100%;
+}
+
+.box3{
+	background-image:url("11.png");
+			background-size:cover;
+			height: 26%;
+			width: 100%;
+}
+.box10{
+	background-image:url("70.jpg");
+			background-size:cover;
+			height: 26%;
+			width: 100%;
+}
+
+
+
+.box4{
+	background-image:url("67.jpg");
+			background-size:cover;
+			height: 26%;
+			width: 100%;
+		
+}
+.box5
+{
+background-image:url("22.png");
+			background-size:cover;
+			height: 26%;
+			width: 100%;
+		
+}
+.box6{
+	background-image:url("69.jpg");
+			background-size:cover;
+			height: 26%;
+			width: 100%;
+}
+.box11{
+	background-image:url("metro11.jpg");
+			background-size:cover;
+			height: 26%;
+			width: 100%;
+}
+
+.box7 {
+    background-image:url("metro7.jpg");
+	background-size:cover;
+	height:26%;
+	width: 100%;
+	}
+.box8 {
+	background-image:url("33.png");
+		background-size:cover;
+		height: 26%;
+		width: 100%;
+}
+.box9 {
+    background-image:url("71.jpg");
+		background-size:cover;
+		height: 26%;
+		width: 100%;
+}
+.box12{
+	background-image:url("metro12.jpg");
+	background-size:cover;
+	height: 26%;
+	width: 100%;
+}
+}
